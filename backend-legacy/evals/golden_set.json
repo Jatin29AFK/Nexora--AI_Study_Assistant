@@ -1,0 +1,8 @@
+[
+  {
+    "question": "Replace with a real question from your PDFs or URLs",
+    "reference_answer": "Replace with the ideal answer you expect",
+    "expected_sources": ["replace-with-real-file-or-url"],
+    "required_keywords": ["keyword1", "keyword2"]
+  }
+]

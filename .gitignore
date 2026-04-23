@@ -1,0 +1,43 @@
+# ---------- Frontend ----------
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ---------- Python backends ----------
+backend/.env
+backend/.pytest_cache/
+backend/__pycache__/
+backend/tests/__pycache__/
+backend/evals/__pycache__/
+backend/venv/
+backend/.venv/
+backend/temp.pdf
+backend/data/uploads/
+backend/data/url_sources.json
+backend/data/suggested_questions.json
+
+backend-legacy/.env
+backend-legacy/.pytest_cache/
+backend-legacy/__pycache__/
+backend-legacy/tests/__pycache__/
+backend-legacy/evals/__pycache__/
+backend-legacy/venv/
+backend-legacy/.venv/
+backend-legacy/ve/
+backend-legacy/temp.pdf
+backend-legacy/data/uploads/
+backend-legacy/data/url_sources.json
+backend-legacy/data/suggested_questions.json
+
+# ---------- Root virtual envs ----------
+ve/
+venv/
+.venv/
+
+# ---------- General ----------
+*.log
+.DS_Store
+.vscode/
+.idea/
